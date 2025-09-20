@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قارئ الباركود ، ماسح الرمز QR</string>
+
+    <string name="contents_location">موقع</string>
+    <string name="contents_contact">اتصل</string>
+
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="qr_generator">انشاء QR</string>
+    <string name="qr_reader">قارئ QR</string>
+    <string name="text_qrCodeType">نوع رمز الاستجابة السريعة</string>
+    <string name="enterText">أدخل النص</string>
+    <string name="generate">انشاء</string>
+    <string name="refresh">تحديث</string>
+    <string name="contents_text">عنوان</string>
+    <string name="contents_email">email.com</string>
+    <string name="contents_phone">هاتف</string>
+    <string name="contents_sms">رسالة قصيرة</string>
+
+
+    <string name="qrCodeResult">نتيجة رمز الاستجابة السريعة</string>
+    <string name="qrReader">قارئ QR</string>
+
+    <string name="share">شارك</string>
+    <string name="search">بحث</string>
+
+    <string name="Settings">إعدادات</string>
+
+    <string name="your_ram">ذاكرة الوصول العشوائي الخاصة بك \ أوشكت على الانتهاء!</string>
+
+    <string name="copy">نسخ</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">QR Code Scanner</string>
+
+
+
+    <!--admob ids-->
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="privacy_policy_url" translatable="false">https://sites.google.com/view/androedapssa/</string>
+
+
+
+    <string name="contents_location">location</string>
+    <string name="contents_contact">contact</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="qr_generator">QR Generator</string>
+    <string name="qr_reader">QR Reader</string>
+    <string name="text_qrCodeType">QR Code Type</string>
+    <string name="enterText">Enter Text</string>
+    <string name="generate">Generate</string>
+    <string name="refresh">Refresh</string>
+    <string name="contents_text">title</string>
+    <string name="contents_email">email.com</string>
+    <string name="contents_phone">phone</string>
+    <string name="contents_sms">sms</string>
+
+
+    <string name="qrCodeResult">QR Code Result</string>
+    <string name="qrReader">QR Reader</string>
+
+    <string name="share">Share</string>
+    <string name="search">Search</string>
+    <string name="Settings">Settings</string>
+
+    <string name="your_ram">Your Ram\nis almost done!</string>
+
+    <string name="copy">Copy</string>
+
+</resources>

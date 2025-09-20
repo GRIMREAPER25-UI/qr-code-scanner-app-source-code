@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>QR Code Scanner & Generator Pro - Android</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		.img-fluid {max-width: 100%;} 
+
+
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;QR Code Scanner & Generator Pro - Android&rdquo; Documentation by &ldquo;Moode Ezz</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;QR Code Scanner & Generator Pro - Android&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 01/01/2025<br>
+					By: Moode Ezz<br>
+					<!--Email:--> <a href="mailto:youremail@yourdomain.com">moodeblacks@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://codecanyon.net/user/moodeezz">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="">
+			<li><a href="#openproject">Open or Import Project</a></li>
+			<li><a href="#project_structure">Project Structure</a></li>
+			<li><a href="#Reskin_project_image">Reskin Project Images</a></li>
+			<li><a href="#update_package_name_android">Update Package Name</a></li>
+			<li><a href="#google_service_json">Firebase Push Notification</a></li>
+			<li><a href="#app_id">Change Application Id</a></li>
+			<li><a href="#facebook_ad_setup">Admob Ad Integration Setup</a></li>
+				<li><a href="#setting_changes">Setting Changes</a></li>
+			
+			
+		</ol>
+		<hr>
+		
+		
+
+		
+
+		<h3 id="openproject"><strong>1) Open or Import Project </strong> - <a href="#toc">top</a></h3>
+		<p>Open android studio and select the option highlighted below</p>
+		
+		<img src="assets/images/android_studio_open.png" alt="Open or Import Project" class="img-fluid" />
+		<p></p>
+		<p>Browse to the Project Main Directory.</p>
+
+		<!--<pre>	#primaryContent a {
+				color: #someColor;
+			} 
+		</pre>-->
+		
+		<img src="assets/images/directory_android.png" alt="Main directory" class="img-fluid"/>
+		
+		<p></p>
+		<hr>
+
+
+
+
+
+
+		<h3 id="project_structure"><strong>2) Project Structure</strong> - <a href="#toc">top</a></h3>
+		
+			
+		<p>On the Left top side, select Android from the menu once the Android Studio completes updating necessary files.</p> 
+		<img src="assets/images/project_structure_android.png" alt="admob" class="img-fluid" />
+		<p></p>
+
+		<!-- <p>Install pods.</p> 
+		<img src="assets/images/install_pod.png" alt="admob" class="img-fluid" /> -->
+
+		<p></p>
+		<hr>
+
+
+
+
+
+		<h3 id="Reskin_project_image"><strong>3) Reskin Project Images</strong> - <a href="#toc">top</a></h3>
+		
+		<p>To change and update the icons, select the drawable folder and right click on it.and then select Show in Explorer</p>
+
+		<img src="assets/images/update_app_icon.png" alt="Header Path" class="img-fluid" />
+		<p></p>
+		<p>There are two types of Folder </p>
+
+		<p> 1. Mipmap (hdpi, mdpi,......, xxxhdpi)</p>
+		<p> Updates the icon inside the mipmap to change main application launcher icon. </p>
+		<p> 2. Drawales (hdpi, mdpi,......, xxxhdpi)</p>
+        <p> Updates the drawables icon which will affect inside the applications.</p>
+
+<img src="assets/images/update_drwable_android.png" alt="Header Path" class="img-fluid" />
+		<!--<ul>
+			<li>File name from file author</li>
+			<li>File name from file author</li>
+			<li>File name from file author</li>
+			<li>File name from file author</li>
+		</ul>-->
+		<p></p>
+		<hr>
+
+		
+
+
+
+		<h3 id="update_package_name_android"><strong>4) Update Package Name</strong> - <a href="#toc">top</a></h3>
+
+		<p>To change package name, select the Settings option aligned to Android option from the top left side of the android studio.</p> 
+
+		<img src="assets/images/update_package_name_android.png" alt="Project Structure" class="img-fluid" />
+		<p></p>
+		<p>Uncheck the Compact Middle Packages. Then you can move files to inner or outer directory as well as rename the directory by selecting Rename from Refcator  option shown in below picture.</p>
+		<img src="assets/images/rename_package_android.png" alt="Project Structure" class="img-fluid" />
+		<hr>
+		
+	
+	
+		
+		<hr>
+
+	
+	<h3 id="app_id"><strong>6) Change Application Id</strong> - <a href="#toc">top</a></h3>
+		<p>To change Application Id find whole project by click double shift and enter build.gradle file. com.demo to com.demo.secinddemo like your application id. </p>
+		<img src="assets/images/change_app_id.jpg" alt="change_app_id" class="img-fluid" />
+        <p></p>
+		
+		<hr>
+
+
+
+<p></p>
+<h3>Google Admob ad</h3>
+<p>7) You can change your google admob id below picture.</p>
+<img src="assets/images/google_change_id.jpg" alt="google_change_id" class="img-fluid" />
+
+<hr>
+
+
+<p></p>
+
+
+
+        <p></p>
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this app. No guarantees, but I'll do my best to assist. If you have a more general question relating to the app, you might ask your question."</p> 
+		
+		<p class="append-bottom alt large"><strong>Moode Ezz</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
